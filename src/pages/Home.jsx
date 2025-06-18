@@ -9,6 +9,8 @@ import LatestEvents from '../components/LatestEvents'
 import NavigationMenu from '../components/NavigationMenu'
 import NewsletterSection from '../components/NewsletterSection'
 import Signatories from './Signatories'
+import GlobalSupporters from './GlobalSupporter'
+import Footer from './Footer'
 
 const Home = () => {
   return (
@@ -23,6 +25,8 @@ const Home = () => {
         <LatestEvents />
         <NewsletterSection />
         <Signatories />
+        <GlobalSupporters />
+        <Footer />
     </>
   )
 }
